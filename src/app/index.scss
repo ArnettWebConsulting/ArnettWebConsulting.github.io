@@ -1,0 +1,22 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+nav header.main-nav {
+    min-height: 80px;
+    
+    .navbar-header {
+        padding-top: 1%;
+    }
+}
+
+header.smaller {
+    height: 45px;
+    
+    .navbar-header{
+        padding-top: 0;
+    } 
+}
+// injector
+// endinjector
