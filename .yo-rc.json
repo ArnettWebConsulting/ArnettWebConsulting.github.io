@@ -37,16 +37,10 @@
         "module": "ui.router"
       },
       "ui": {
-        "name": "bootstrap-sass-official",
-        "version": "~3.3.1",
-        "key": "bootstrap",
-        "module": null
-      },
-      "bootstrapComponents": {
-        "name": "angular-bootstrap",
-        "version": "0.12.x",
-        "key": "ui-bootstrap",
-        "module": "ui.bootstrap"
+        "name": "angular-material",
+        "version": "~0.5.1",
+        "key": "angular-material",
+        "module": "ngMaterial"
       },
       "cssPreprocessor": {
         "key": "node-sass",
@@ -66,6 +60,12 @@
         "extension": "html",
         "module": null,
         "version": null
+      },
+      "bootstrapComponents": {
+        "name": null,
+        "version": null,
+        "key": null,
+        "module": null
       },
       "foundationComponents": {
         "name": null,

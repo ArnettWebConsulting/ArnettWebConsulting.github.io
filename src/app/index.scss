@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100,400);
+
+/* 
+ * Pastel Color Theme
+*/
+
+$red: #f4858e;
+$green: #bfe2ca;
+$blue: #a6daef;
+$lightblue: #d0e2ec;
+$yellow: #fed88f;
+$gunmetal: #2C3539;
+
+/*
+ * End Color Theme
+*/
+
+$center: 0 auto;
+
+html {
+  font-family: 'Josefin Slab', serif;
+}
+
+[layout=row] {
+  flex-direction: row;
+}
+
+.header {
+    height: 100vh;
+}
+
+section.jumbotron {
+  margin-bottom: 30px;
+  padding: 0 20% 3%;
+  background-color: $gunmetal;
+  color: white;
+  min-height: 300px;
+
+  h1 {
+    font-size: 3em;
+      .small-title {
+          font-size: 0.5em;
+      }
+      .lg-title {
+          float: right;
+      }
+  }
+}
+
+.techs {
+  display: flex;
+  flex-flow: row wrap;
+
+  md-card {
+    width: 30%;
+
+    img.pull-right {
+      float: right;
+      width: 50px;
+    }
+  }
+}
+md-sidenav {
+    height: 100vh; 
+    background: gray;
+}
+
+.menu-btn {
+    position: fixed;
+    top: 4px;
+    left: 4px;
+    z-index: 5;
+}
+
+.md-button.md-default-theme.md-fab {
+  background-color: white;
+  color: $gunmetal;
+}
+
+.md-button.md-default-theme.md-fab:not([disabled]):hover, .md-button.md-default-theme.md-fab:not([disabled]):focus {
+    background-color: white;
+}
+
+.close-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+.side-btn {
+    width: 80%;
+    margin: 10% auto;
+    
+    .nav-btn {
+        width: 100%;
+    }
+}
+
+.main, .projects {
+    width: 80%;
+    margin: $center;
+    
+    .about-info {
+        width: 40%;
+        margin: $center;
+        font-size: 1.3em;
+    }
+}
+// injector
+// endinjector
