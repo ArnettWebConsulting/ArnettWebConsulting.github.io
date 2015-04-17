@@ -32,7 +32,8 @@ html {
 section.jumbotron {
   margin-bottom: 30px;
   padding: 0 20% 3%;
-  background-color: $gunmetal;
+  background: url('../assets/images/deskbackgr.jpg');
+  background-size: cover;
   color: white;
   min-height: 300px;
 
@@ -61,8 +62,10 @@ section.jumbotron {
   }
 }
 md-sidenav {
-    height: 100vh; 
     background: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .menu-btn {
@@ -82,7 +85,7 @@ md-sidenav {
 }
 
 .close-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     color: white;
