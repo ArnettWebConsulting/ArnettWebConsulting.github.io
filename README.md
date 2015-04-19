@@ -1,2 +1,1 @@
-# ArnettWebConsulting.github.io
-main repo of Arnett Web Consulting
+Main Repo for Lift The Web main site
