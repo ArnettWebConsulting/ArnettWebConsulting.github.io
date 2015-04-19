@@ -76,7 +76,7 @@ md-sidenav {
     top: 4px;
     left: 4px;
     z-index: 5;
-    color: $blue;
+    color: $yellow;
 }
 
 .md-button.md-default-theme.md-fab {
@@ -113,6 +113,24 @@ md-sidenav {
         margin: $center;
         font-size: 1.3em;
     }
+}
+
+img.html-css {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+}
+
+img.angular-img {
+    width: 35%;
+    margin: -4% auto 0;
+    display: block;
+}
+
+img.ionic-img {
+    width: 20%;
+    margin: 3% auto 0;
+    display: block;
 }
 // injector
 // endinjector
