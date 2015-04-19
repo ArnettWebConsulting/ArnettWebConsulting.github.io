@@ -39,6 +39,9 @@ section.jumbotron {
 
   h1 {
     font-size: 3em;
+    position: absolute;
+    top: 8%;
+    right: 10%;
       .small-title {
           font-size: 0.5em;
       }
@@ -73,6 +76,7 @@ md-sidenav {
     top: 4px;
     left: 4px;
     z-index: 5;
+    color: $blue;
 }
 
 .md-button.md-default-theme.md-fab {
