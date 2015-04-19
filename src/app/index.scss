@@ -65,7 +65,7 @@ section.jumbotron {
   }
 }
 md-sidenav {
-    background: gray;
+    background: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@ md-sidenav {
     position: fixed;
     top: 0;
     right: 0;
-    color: white;
+    color: $gunmetal;
 }
 
 .side-btn {
@@ -104,15 +104,24 @@ md-sidenav {
     }
 }
 
-.main, .projects {
+.main {
     width: 80%;
     margin: $center;
+    padding: 2% 0 7%;
+    min-height: 400px;
     
     .about-info {
         width: 40%;
         margin: $center;
         font-size: 1.3em;
     }
+}
+
+.projects {
+    min-height: 400px;
+    background: url("../assets/images/ideas.jpg");
+    background-size: cover;
+    position: relative;
 }
 
 img.html-css {
@@ -123,7 +132,7 @@ img.html-css {
 
 img.angular-img {
     width: 35%;
-    margin: -4% auto 0;
+    margin: -4% auto -7.5%;
     display: block;
 }
 
@@ -133,6 +142,21 @@ img.ionic-img {
     display: block;
 }
 
+.hidden {
+    display: none;
+}
+
+.idea-head {
+    color: white;
+    font-size: 2em;
+    padding-left: 10%;
+}
+
+.get-started {
+    position: absolute;
+    right: 42%;
+    bottom: 35%;
+}
 /*
  * Begin Animate.css
 */
