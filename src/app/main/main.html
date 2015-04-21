@@ -1,11 +1,11 @@
 <header ng-include="'components/navbar/navbar.html'"></header>
 <div layout="vertical" layout-fill>
     
-  <div layout="row" flex>
+  <div layout="column" flex>
       
       <md-content>
        
-        <section class="jumbotron header" layout="column" layout-align="end end">
+        <section class="jumbotron header" layout="row" layout-align="end end" flex>
           <h1 class="animated-extend fadeInUp">
               <span class="lg-title">Lift The Web</span><br>
               <span class="small-title">Taking Web Development to New Heights</span>
@@ -14,7 +14,7 @@
         
         <section class="main" layout="column" layout-align="space-around center" flex>
             <h2 id="what-we-do" class="hidden">What We Do?</h2>
-                <div layout-gt-sm="row" layout-sm="column" layout-align="space-around center">
+                <div layout="row" layout-align="space-around center">
                     <div id="html" class="about-info hidden" flex>
                     <img class="html-css" src="../../assets/images/HTML5CSS3Logos.svg" alt="HTML5 & CSS3"><br>
                     Gamification responsive web design beta MVP iteration venture social proof pitch lean startup metrics handshake prototype supply chain. Hypotheses virality infographic customer termsheet traction
