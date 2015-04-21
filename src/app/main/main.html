@@ -13,17 +13,27 @@
           
           <div class="macbook">
             <ul id="macslideshow" class="slideshow">
-                <li class="slideshow__item active"><img src="../../assets/images/wildenglish.png"></li>
-                <li class="slideshow__item"><img src="../../assets/images/activ8.png"></li>
-                <li class="slideshow__item"><img src="../../assets/images/surf.png"></li>
-                <li class="slideshow__item"><img src="../../assets/images/ngstore.png"></li>
+                <li ng-class="{active: app.macCount == 1}" class="slideshow__item"><img src="../../assets/images/wildenglish.png"></li>
+                <li ng-class="{active: app.macCount == 2}" class="slideshow__item"><img src="../../assets/images/activ8.png"></li>
+                <li ng-class="{active: app.macCount == 3}" class="slideshow__item"><img src="../../assets/images/surf.png"></li>
+                <li ng-class="{active: app.macCount == 4}" class="slideshow__item"><img src="../../assets/images/ngstore.png"></li>
             </ul>
           </div>
           <div class="ipad">
-            <img src="../../assets/images/ionicscreen.png" alt="">
+            <ul id="ipadslideshow" class="slideshow">
+                <li ng-class="{active: app.ipadCount == 1}" class="slideshow__item"><img src="../../assets/images/wildenglish.png"></li>
+                <li ng-class="{active: app.ipadCount == 2}" class="slideshow__item"><img src="../../assets/images/activ8.png"></li>
+                <li ng-class="{active: app.ipadCount == 3}" class="slideshow__item"><img src="../../assets/images/surf.png"></li>
+                <li ng-class="{active: app.ipadCount == 4}" class="slideshow__item"><img src="../../assets/images/ngstore.png"></li>
+            </ul>
           </div>
           <div class="iphone">
-            <img src="../../assets/images/ionicscreen.png" alt="">
+            <ul id="iphoneslideshow" class="slideshow">
+                <li ng-class="{active: app.iphoneCount == 1}" class="slideshow__item"><img src="../../assets/images/wildenglish.png"></li>
+                <li ng-class="{active: app.iphoneCount == 2}" class="slideshow__item"><img src="../../assets/images/activ8.png"></li>
+                <li ng-class="{active: app.iphoneCount == 3}" class="slideshow__item"><img src="../../assets/images/surf.png"></li>
+                <li ng-class="{active: app.iphoneCount == 4}" class="slideshow__item"><img src="../../assets/images/ngstore.png"></li>
+            </ul>
           </div>
         </section>
         
